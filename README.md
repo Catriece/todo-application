@@ -38,7 +38,6 @@ In a new terminal:
 # FOLDER STRUCTURE
 
 |-- `client`
-| |-- node_modules (git ignored)
 | |-- public
 | |-- `src`
 | | |-- `assets` (images etc housed here)
@@ -50,8 +49,6 @@ In a new terminal:
 | |-- & other necessary files
 
 |-- `server`
-| |-- dist
-| |-- node_modules (git ignored)
 | |-- `src`
 | | |-- `app`
 | | | |-- `app.controller.ts` (Top level controllers file)

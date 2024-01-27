@@ -1,0 +1,4 @@
+Form Validation/User Creation
+
+1. Users are not allowed to use @ symbols in their username. 
+2. Input value is being removed from state when login button is clicked but input values are still present in the input 

@@ -1,5 +1,6 @@
 import { Box, Button } from "@chakra-ui/react";
 import React, { FC } from "react";
+import LoginPage from "./authentication/login-page";
 
 const HomePage: FC = () => {
   const handleClick = (e: React.MouseEvent) => {
@@ -9,8 +10,7 @@ const HomePage: FC = () => {
 
   return (
     <Box>
-      <p>You have reached home page</p>
-      <Button onClick={handleClick}>Click Me!</Button>
+      <LoginPage />
     </Box>
   );
 };
